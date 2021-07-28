@@ -1,5 +1,7 @@
+package Basics;
+
 public class Conta {
-    private double saldo;
+    private double saldo = 0.0;
     private int agencia;
     private int numero;
     private String titular;
@@ -44,7 +46,7 @@ public class Conta {
     }
 
     public String toString() {
-        return "Conta{" +
+        return "Basics.Conta{" +
                 "saldo=" + saldo +
                 ", agencia=" + agencia +
                 ", numero=" + numero +
