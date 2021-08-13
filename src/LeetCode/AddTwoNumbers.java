@@ -1,10 +1,5 @@
 package LeetCode;
 
-public class ListNode {
-        ListNode output = new ListNode();
-}
-
-
 public class AddTwoNumbers {
     public class ListNode {
         int val;
